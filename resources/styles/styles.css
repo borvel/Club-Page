@@ -1,0 +1,84 @@
+
+/* Phones and Tablets*/
+@media screen and (min-width: 280px) {
+    html{
+        font-size:10px;
+    }
+    figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #283845;
+        color:#B8B08D;
+    }
+    h1{
+        background-color: #F39F68;
+        color:#F2D492;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        color:#F29559;
+    }
+    .summary h2{
+        text-align: left;
+
+    }
+    aside{
+        background-color: #202C39;
+    }
+    main img{
+        max-width: 100%;
+    }
+    
+    a{
+        color:white;
+    }
+    header,
+    footer{
+        background-color: #202C39;
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: flex-start;
+    }
+
+    nav ul li{
+        padding-right: 1.2rem;
+    }
+}
+/* Laptops and PCs */
+@media screen and (min-width: 1440px) {
+    html{
+        font-size: 16px;
+    }
+    figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    figure img{
+        min-width: 0;
+        width: 100%;
+        height: 100%;
+        margin:30px;
+    }
+    .meetup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .meetup figure{
+        width: 50%;
+    }
+
+}
